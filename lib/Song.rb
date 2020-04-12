@@ -60,7 +60,7 @@ class Song
          self.create(name)
        end
      end
-    self.find_by_name(name) || self.create(name)
+    
 
   end
 
